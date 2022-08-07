@@ -1,19 +1,18 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-  --h1-font-family: 'Playfair Display', serif;
-  --h2-font-family: 'Poppins', sans-serif;
+  --main-font-family: 'Playfair Display', serif;
+  --secondary-font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  font-family: var(--h1-font-family);
+  font-family: var(--main-font-family);
   font-weight: 700;
 }
 
 p,
 h2 {
-  font-family: var(--h2-font-family);
-  font-weight: 400;
+  font-family: var(--secondary-font-family);
 }
 
 .hero {
@@ -48,4 +47,60 @@ h2 {
 
 .btn-branding:hover {
   color: white;
+}
+
+.grid-title-heading {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: var(--main-font-family);
+}
+
+.info-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  line-height: 30px;
+}
+
+.btn-branding-outline {
+  padding: 18px 30px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  border-radius: 4px;
+  line-height: 27px;
+  font-size: 18px;
+}
+
+.portfolio {
+  padding-top: 90px;
+  padding-left: 50px;
+}
+
+.portfolio-weather {
+  padding-top: 90px;
+  padding-right: 50px;
+}
+
+@media (max-width: 991px) {
+  .portfolio,
+  .portfolio-weather {
+    padding: 0;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .grid-title-heading {
+    font-size: 45px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .portfolio {
+    padding: 0;
+  }
 }
