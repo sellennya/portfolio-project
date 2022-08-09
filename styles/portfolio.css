@@ -27,7 +27,7 @@ h2 {
   margin: 0;
 }
 
-.about-section p {
+.first-section p {
   font-size: 16px;
   opacity: 70%;
 }
@@ -41,19 +41,26 @@ h2 {
   line-height: 2;
 }
 
-.about-section {
+.first-section {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.first-section h1 {
   font-size: 64px;
+  margin-bottom: 103px;
 }
 
-.about-section h2 {
+.first-section h2 {
   font-size: 18px;
 }
 
-.about-section-content {
+.first-section h3 {
+  font-size: 24px;
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+}
+
+.first-section-content {
   margin: 30px;
 }
 
@@ -102,15 +109,19 @@ h2 {
   padding-right: 50px;
 }
 
+.image-paragraph {
+  font-size: 14px !important;
+}
+
 @media (max-width: 991px) {
   .portfolio,
   .portfolio-weather,
-  .about-section {
+  .first-section {
     padding: 0;
     text-align: center;
   }
   .hero h1,
-  .about-section h1 {
+  .first-section h1 {
     font-size: 60px;
   }
   .grid-title-heading {
