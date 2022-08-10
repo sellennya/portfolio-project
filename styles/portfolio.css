@@ -64,6 +64,30 @@ h2 {
   margin: 30px;
 }
 
+.second-hero {
+  background-color: var(--secondary-color);
+  padding: 40px 60px;
+  border-radius: 10px;
+}
+
+.second-hero h3 {
+  font-family: var(--main-font-family);
+  font-size: 48px;
+}
+
+.second-hero p {
+  font-size: 18px;
+}
+
+.social {
+  margin-top: 80px;
+}
+.social a {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  color: #343a40;
+  text-decoration: none;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -74,6 +98,19 @@ h2 {
 }
 
 .btn-branding:hover {
+  color: white;
+}
+
+.btn-second-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 9px 15px;
+}
+
+.btn-second-branding:hover {
   color: white;
 }
 
