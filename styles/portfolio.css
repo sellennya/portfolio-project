@@ -172,6 +172,9 @@ h2 {
     padding-left: 15px;
     padding-bottom: 25px;
   }
+  .second-hero .row {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
