@@ -177,6 +177,38 @@ h2 {
   }
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav ul.navigation a {
+  color: #272142;
+  opacity: 70%;
+  font-family: var(--secondary-font-family);
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav a:hover {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .portfolio {
     padding: 0;
