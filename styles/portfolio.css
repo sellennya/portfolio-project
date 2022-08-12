@@ -14,11 +14,70 @@ p,
 h2 {
   font-family: var(--secondary-font-family);
 }
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav ul.navigation a {
+  color: #272142;
+  opacity: 70%;
+  font-family: var(--secondary-font-family);
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav a:hover {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social {
+  margin-top: 80px;
+}
+footer .social a {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  color: #343a40;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social a:hover {
+  color: var(--branding-color);
+}
+
+footer .icone a {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .icone a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -42,7 +101,7 @@ h2 {
 }
 
 .first-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .first-section h1 {
@@ -141,64 +200,15 @@ h2 {
   font-size: 14px !important;
 }
 
-nav {
-  padding: 20px 0;
+.note {
+  opacity: 1 !important;
 }
-
-nav ul {
-  padding: 0;
-  margin: 0;
-  align-self: center;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  margin-left: 20px;
-}
-
-nav ul.navigation a {
-  color: #272142;
-  opacity: 70%;
-  font-family: var(--secondary-font-family);
-}
-
-nav li.active a,
-nav a:hover {
+.note a {
   color: var(--branding-color);
 }
 
-nav a:hover {
+.note a:hover {
   text-decoration: none;
-  transition: all 100ms ease-in-out;
-}
-
-footer .social {
-  margin-top: 80px;
-}
-footer .social a {
-  font-family: var(--secondary-font-family);
-  font-size: 24px;
-  color: #343a40;
-  text-decoration: none;
-  transition: all 100ms ease-in-out;
-}
-
-footer .social a:hover {
-  color: var(--branding-color);
-}
-
-footer .icone a {
-  color: var(--branding-color);
-  background-color: var(--secondary-color);
-  font-size: 18px;
-  padding: 10px 14px;
-  transition: all 100ms ease-in-out;
-}
-
-footer .icone a:hover {
-  color: white;
-  background-color: var(--branding-color);
 }
 
 @media (max-width: 991px) {
@@ -235,16 +245,6 @@ footer .icone a:hover {
     margin-left: 6px;
   }
 }
-
-/* @media (min-width: 320px) and (max-width: 768px) {
-  footer .col-md-9 {
-    max-width: 100%;
-  }
-
-  nav li {
-    margin-left: 6px;
-  }
-} */
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .portfolio {

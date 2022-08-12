@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get to know more about Sandra" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -38,12 +39,12 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Document</title>
+    <title>About Sandra</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img src="/images/logo.png" alt="logo" class="d-none d-md-block" />
           <img
             src="/images/logo-small.png"
@@ -52,10 +53,12 @@
           />
         </a>
         <ul class="navigation">
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Sandra">About</a>
+          </li>
+          <li><a href="/work.html" title="Sandra's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Sandra">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -71,7 +74,9 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#" class="btn btn-branding mt-4">View all my projects</a>
+            <a href="/work.html" class="btn btn-branding mt-4"
+              >View all my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
@@ -90,29 +95,44 @@
               <p>Let's work together and I'll help you by all my best</p>
             </div>
             <div class="col-auto mt-4">
-              <a href="#" class="btn btn-second-branding">Let's talk here</a>
+              <a
+                href="/contact.html"
+                class="btn btn-second-branding"
+                title="Contact Sandra"
+                >Let's talk here</a
+              >
             </div>
           </div>
         </div>
         <div class="social text-center">
-          <a href="mailto:patricia@gmail.com">patricia@gmail.com</a>
+          <a href="mailto:patricia@gmail.com" title="Email Sandra"
+            >sandra.selenia@gmail.com</a
+          >
           <div class="icone mt-5">
             <a
-              href="https://www.linkedin.com/patricia"
+              href="https://www.linkedin.com/in/sandra-cardoso-1a478877/"
               target="_blank"
               class="mr-4 rounded-circle"
+              title="Linkedin"
             >
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
             <a
-              href="https://www.github.com/patricia"
+              href="https://www.github.com/sellennya"
               target="_blank"
               class="mr-4 rounded-circle"
+              title="Github"
             >
               <i class="fa-brands fa-github"></i>
             </a>
           </div>
         </div>
+        <p class="text-center mt-5 note">
+          👆 This project was coded by Sandra Cardoso and it is
+          <a href="https://github.com/sellennya/portfolio-project"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
