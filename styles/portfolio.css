@@ -86,27 +86,27 @@ footer .icone a:hover {
   margin: 0;
 }
 
-.first-section p {
-  font-size: 16px;
-  opacity: 70%;
+.mid-text {
+  margin: 60px 0;
 }
 
-.hero h1 {
-  font-size: 96px;
-}
-
-.hero h2 {
-  font-size: 24px;
-  line-height: 2;
+.meditation-section,
+.weather-section {
+  margin-bottom: 70px;
 }
 
 .first-section {
   padding: 60px 20px;
 }
 
+.first-section p,
+.second-hero p {
+  font-size: 16px;
+  opacity: 70%;
+}
+
 .first-section h1 {
   font-size: 64px;
-  margin-bottom: 103px;
 }
 
 .first-section h2 {
@@ -120,7 +120,20 @@ footer .icone a:hover {
 }
 
 .first-section-content {
-  margin: 30px;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  line-height: 2;
+}
+
+.sandra-image {
+  border-radius: 10px;
 }
 
 .second-hero {
@@ -132,10 +145,6 @@ footer .icone a:hover {
 .second-hero h3 {
   font-family: var(--main-font-family);
   font-size: 48px;
-}
-
-.second-hero p {
-  font-size: 18px;
 }
 
 .btn-branding {
@@ -187,12 +196,11 @@ footer .icone a:hover {
 }
 
 .portfolio {
-  padding-top: 90px;
-  padding-left: 50px;
+  padding: 40px 0;
 }
 
 .portfolio-weather {
-  padding-top: 90px;
+  padding-top: 20px;
   padding-right: 50px;
 }
 
@@ -212,6 +220,18 @@ footer .icone a:hover {
 }
 
 @media (max-width: 991px) {
+  footer .col-md-9 {
+    max-width: 100%;
+  }
+
+  footer .social a {
+    font-size: 20px;
+  }
+
+  nav li {
+    margin-left: 6px;
+  }
+
   .portfolio,
   .portfolio-weather,
   .first-section {
@@ -220,34 +240,44 @@ footer .icone a:hover {
   }
   .hero h1,
   .first-section h1 {
-    font-size: 60px;
+    font-size: 40px;
     margin: 0;
   }
+
+  .note {
+    font-size: 15px !important;
+  }
+
+  .first-section-content {
+    margin: 30px 0;
+  }
+
   .grid-title-heading {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .hero {
     padding: 60px 20px;
   }
-  .patricia-image {
-    padding-left: 15px;
+
+  .sandra-image {
     padding-bottom: 25px;
   }
+
   .second-hero .row {
     display: block;
   }
-  footer .col-md-9 {
-    max-width: 100%;
-  }
 
-  nav li {
-    margin-left: 6px;
+  .second-hero h3 {
+    font-size: 40px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .portfolio {
-    padding: 0;
+    padding-top: 8px;
+  }
+  .portfolio-weather {
+    padding-top: 0;
   }
 }
